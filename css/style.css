@@ -1,0 +1,43 @@
+*{
+    margin:0;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    height: 120px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border: 1px black solid;
+    margin: 5px;
+    border-radius: 50% ;
+    padding: 8px;
+}
+a:hover{
+    transition-duration: 0.5s;
+    font-size: 20px;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
